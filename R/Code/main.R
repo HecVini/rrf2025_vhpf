@@ -21,8 +21,10 @@ library(RColorBrewer) # color palettes
 # this is the second root of the project, the first root is the code whose directory 
 # is already being handled by the rstudio project.
 
-data_path <- "the path for your data"
+data_path <- "/Users/vhpf/Library/CloudStorage/OneDrive-Personal/ProjetosCarreira/RA_DIME/dc_sept2025/Transparent and Credible Analytics/Course Materials/DataWork/Data"
 
 # Run the R scripts ----
 
-source("the path of your scripts")
+#source("/Users/vhpf/Library/CloudStorage/OneDrive-Personal/ProjetosCarreira/RA_DIME/dc_sept2025/rrf2025_vhpf/R/Code/01-processing-data.R")
+source("/Users/vhpf/Library/CloudStorage/OneDrive-Personal/ProjetosCarreira/RA_DIME/dc_sept2025/rrf2025_vhpf/R/Code/02-constructing-data.R")
+source("/Users/vhpf/Library/CloudStorage/OneDrive-Personal/ProjetosCarreira/RA_DIME/dc_sept2025/rrf2025_vhpf/R/Code/03-analyzing-data.R")

@@ -6,7 +6,6 @@ library(haven)
 library(labelled)
 library(janitor)
 library(tidylog)
-install.packages("assertthat")
 library(assertthat)
 # RRF - 2024 - Construction
 
@@ -94,11 +93,7 @@ for (var in win_vars) {
     hh_data <- winsor_function(hh_data, var)
 }
 
-# Update the labels to reflect that winsorization was applied
-hh_data <- hh_data %>%
-    mutate(across(ends_with("......"), 
-                  ~ labelled(.x, label = paste0(attr(.x, "label"), 
-                                                " (Winsorized 0.05)"))))
+
 
 # Exercise 4.1: Create indicators at HH level ----
 
