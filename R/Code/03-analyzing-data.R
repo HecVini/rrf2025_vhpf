@@ -2,16 +2,16 @@
 # 03. Data Analysis
 
 # Libraries -----
-# library(haven)
-# library(dplyr)
-# library(modelsummary)
-# library(stargazer)
-# library(ggplot2)
-# library(tidyr)
+ library(haven)
+ library(dplyr)
+ library(modelsummary)
+ library(stargazer)
+ library(ggplot2)
+ library(tidyr)
 
 # Load data -----
 #household level data
-data_path <- "ADD-YOUR-PATH"
+data_path <- "/Users/vhpf/Library/CloudStorage/OneDrive-Personal/ProjetosCarreira/RA_DIME/dc_sept2025/Transparent and Credible Analytics/Course Materials/DataWork/Data"
 hh_data   <- read_dta(file.path(data_path, "Final/TZA_CCT_analysis.dta"))
 
 # secondary data 
